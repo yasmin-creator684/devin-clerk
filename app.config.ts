@@ -4,22 +4,35 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "GamerOwl",
+  description:
+    "Gives you reminders of games and notifies you to claim your dailies and missions.",
+  emoji: "🦉",
+  accent: "#4f46e5",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Game library",
+      description: "Add the games you play and choose which ones to track.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Daily reset reminders",
+      description: "Get notified when each game's dailies reset.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Mission checklist",
+      description: "Tick off daily and weekly missions for each game.",
+    },
+    {
+      title: "Reset countdowns",
+      description: "See a live timer until each game's next reset.",
+    },
+    {
+      title: "Claim streaks",
+      description: "Track how many days in a row you've claimed your dailies.",
+    },
+    {
+      title: "Event deadline alerts",
+      description: "Get a heads-up before limited-time events end.",
     },
   ] satisfies Feature[],
 };
