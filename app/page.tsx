@@ -13,12 +13,9 @@ export default function Home() {
         href="/dashboard"
         className="rounded-full bg-accent px-6 py-3 font-medium text-white shadow-sm transition hover:opacity-90"
       >
-        Get early access →
+        Track your dailies →
       </Link>
-      <p className="text-sm text-black/50">
-        This page is public. The early-access page should be for signed-in users
-        only.
-      </p>
+      <p className="text-sm text-black/50">Never miss a daily or mission.</p>
     </section>
   );
 }
